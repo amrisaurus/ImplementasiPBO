@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_nilai1"
+        android:hint="Silakan diisi"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_nilai2"
+        android:hint="Silakan diisi"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/btn_hitung_tambah_yaaa"
+            android:text="Plus"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_hitung_kurang_yes"
+            android:text="Minus"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+
+        <Button
+            android:id="@+id/btn_hitung_bagi_sama_rata"
+            android:text="Bagi"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+        <Button
+            android:id="@+id/btn_hitung_kali_kali_kali"
+            android:text="Kali"
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
